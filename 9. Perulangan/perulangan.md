@@ -12,4 +12,15 @@ Hanya saja bedanya:
 - Sedangkan **perulangan**, ia akan dilakukan seterusnya **berulang-ulang** dengan jumlah tertentu atau **selama kondisi tertentu terpenuhi.**
 
 
+jmlTmn = int(input("Berapa Teman Sekolah anda? "))
+NamaTemen=[]
+
+i= 0
+while (i<jmlTmn):
+    print('Temen ke', i+1)
+    NamaTemen.append(str(input("Nama temen anda ? ")))
+    i+=1
+    
+print('Nama Temen anda yang tercatat adalah ')
+print(NamaTemen)
 
