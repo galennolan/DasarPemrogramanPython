@@ -285,7 +285,24 @@ Bukan Surabaya
 Bukan Depok
 Ketemu di index 3
 ```
+----------------------------------------------------------------------------------
 
+## Pencarian Angka dan ngeceknya  
+
+nomer = [2,4,5,6]
+
+no = int(input('Masukkan angkamu: '))
+
+i = 0
+while i < len(nomer):
+  if nomer[i] == no:
+    print('Ketemu di index', i)
+    break
+
+  print('Bukan', nomer[i])
+  i += 1
+  
+  
 ----------------------------------------------------------------------------------
 
 ## Kapan harus menggunakan for, dan kapan harus menggunakan while?  
